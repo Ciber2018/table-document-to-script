@@ -1,0 +1,18 @@
+{
+    "name": "ciber2018/tabletoscript",
+    "description": "This packages take out a table from Word and Pdf documents",
+    "type": "project",
+    "license": "Private",
+    "autoload": {
+        "psr-4": {
+            "Ciber2018\\Tabletoscript\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ing. Frank Benitez Calzado"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

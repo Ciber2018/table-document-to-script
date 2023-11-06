@@ -11,4 +11,9 @@ class TableToScriptProvider extends ServiceProvider{
         $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
         $this->loadViewsFrom(__DIR__.'/../views','tabletoscript');
     }
+
+    public function register()
+    {
+        //$this->app->register('PhpOffice\PhpWord\PhpWord');
+    }
 }

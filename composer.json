@@ -5,7 +5,7 @@
     "license": "Private",
     "autoload": {
         "psr-4": {
-            "Ciber2018\\Tabletoscript\\": "src/"
+            "Ciber2018\\Tabletoscript\\": "src/"            
         }
     },
     "authors": [
@@ -13,6 +13,5 @@
             "name": "Ing. Frank Benitez Calzado"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {}
+    "minimum-stability": "stable"
 }

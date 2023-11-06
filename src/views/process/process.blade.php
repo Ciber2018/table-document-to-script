@@ -11,10 +11,10 @@
 
 <body>
     <div class="container">
-        @if (count($allTables) == 0)
+        @if (count($tables) == 0)
         <h2>No hay tblas</h2>
         @else
-            @foreach ($allTables as $key => $table)
+            @foreach ($tables as $key => $table)
                 <table class="table">
                     <thead>
                     <tr>
